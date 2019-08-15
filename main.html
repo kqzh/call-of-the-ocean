@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>where are you</title>
+	<style type="text/css">
+		#canvas{
+			border: 1px solid blue;
+		}
+		#offCanvas{
+			border: 1px solid blue;
+		}
+	</style>
+</head>
+<body>
+<!--
+    <audio id="backgroundMusic" src="backgroundMusic.mp3" hidden="true" autoplay="true"></audio>
+    <audio id="ChoseMusicL" src="ChoseMusicL.mp3" hidden="true"></audio>
+    <audio id="ChoseMusicR" src="ChoseMusicR.mp3" hidden="true"></audio>
+    <audio id="GiveCardMusic" src="GiveCardMusic.mp3" hidden="true"></audio>
+-->
+    
+	<canvas id ="canvas" width="860" height="540"></canvas>
+	<canvas id ="offCanvas" width="860" height="540" hidden="true"></canvas>
+    <canvas id = "mask" width="869" height = "540" hidden="true"></canvas>
+    <audio id = "left"src="Music/ChoseMusicL.mp3" hidden="true"/>
+    <audio id = "lastsong"src="Music/LastSong.mp3" hidden="true"/>
+    <audio id = "bgm"src="Music/backgroundMusic.mp3" hidden="true" loop/>
+    <audio id = "BeginMusic" src="Music/BeginMusic.mp3" hidden="true" loop/>
+	<audio id = "right"src="Music/ChoseMusicR.mp3" hidden="true"/>
+	<audio id = "givecard" src="Music/GiveCardMusic.mp3" hidden="true"/>
+    <audio id = "FirstSceneMusic" src="Music/FirstSceneMusic.mp3" hidden="true" loop/>
+    <audio id = "SSR" src="Music/SSR.mp3" hidden="true"/>
+    <audio id = "AnimalMusic" src="Music/AnimalMusic.mp3" hidden="true" loop/>
+    <audio id = "TheThirdMusic" src="Music/TheThirdMusic.mp3" hidden="true" loop/>
+    <audio id = "AttackToDieMusic" src="Music/AttackToDieMusic.mp3" hidden="true" loop/>
+    <audio id = "FouthSceneMusic" src="Music/FouthSceneMusic.mp3" hidden="true" loop/>
+    <audio id = "FifthMusic" src="Music/FifthMusic.mp3" hidden="true" loop/>
+    
+    
+    
+    <style type="text/css">
+		canvas:hover{
+			cursor:url('Pic/cur.png') 10 25, auto;
+		}
+	</style>
+
+	<script type="text/javascript" src = "JS/requestNextAnimationFrame.js"></script>
+	<script type="text/javascript" src = "JS/FunctionAndDefine.js"></script>
+    <script type="text/javascript" src = "JS/TextIn.js"></script>
+    <script type="text/javascript" src = "JS/ShowTheAnimal.js"></script> 
+    <script type="text/javascript" src = "JS/StartYourRoad.js"></script>
+    <script type="text/javascript" src = "JS/TalkTheStory.js"></script>
+	<script type="text/javascript" src = "JS/StartTheGame.js"></script>
+    <script type="text/javascript" src = "JS/DieForAttack.js"></script>
+    <script type="text/javascript" src = "JS/ShowTheFifthScene.js"></script>
+    <script type="text/javascript" src = "JS/ShowTheFouthScene.js"></script>
+    <script type="text/javascript" src = "JS/ShowTheThirdScene.js"></script>
+    <script type="text/javascript" src = "JS/ShowTheSecondScene.js"></script>
+	<script type="text/javascript" src = "JS/ShowTheFirstScene.js"></script>
+    <script type="text/javascript" src = "JS/DieForFaith.js"></script>
+    <script type="text/javascript" src = "JS/DieForBirth.js"></script>
+    <script type="text/javascript" src = "JS/DieForLose.js"></script>
+    <script type="text/javascript" src = "JS/DieForRun.js"></script>
+    <script type="text/javascript" src = "JS/TheEnd.js"></script>
+</body>
+</html>
